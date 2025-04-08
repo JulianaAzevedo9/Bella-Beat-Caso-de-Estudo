@@ -53,15 +53,15 @@ Nota-se que os dados foram disponibilizados pela Motivate International Inc. ao 
 ### 3. Processo
 A base para esta análise são os dados de **2016** e os passos para o processamento dos dados são os seguintes:
 
-![Modelação de dados](https://github.com/Juliana-89/Bellabeat-Case-Study-SQL-and-Power-BI/blob/main/DataModelingBellaBeat.sql)
+![Modelação de dados](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/DataModelingBellaBeat.sql)
 
-![Transformação de dados](https://github.com/Juliana-89/Bellabeat-Case-Study-SQL-and-Power-BI/blob/main/DataTransformationBellaBeat.sql)
+![Transformação de dados](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/DataTransformationBellaBeat.sql)
 
-![Combinação de dados](https://github.com/Juliana-89/Bellabeat-Case-Study-SQL-and-Power-BI/blob/main/DataCombiningBellaBeat.sql)
+![Combinação de dados](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/DataCombiningBellaBeat.sql)
 
-![Exploração de dados](https://github.com/Juliana-89/Bellabeat-Case-Study-SQL-and-Power-BI/blob/main/DataExplorationBellaBeat.sql)
+![Exploração de dados](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/DataExplorationBellaBeat.sql)
 
-![Análise de dados](https://github.com/Juliana-89/Bellabeat-Case-Study-SQL-and-Power-BI/blob/main/Data%20Analysis.sql)
+![Análise de dados](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/Data%20Analysis.sql)
 
 #### Combinação de dados
 
