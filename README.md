@@ -44,7 +44,7 @@ Usarei os dados do FitBit Fitness Tracker, um valioso conjunto de dados históri
 Este conjunto de dados do Kaggle inclui dados de rastreio de fitness de 30 utilizadores do Fitbit que concordaram em partilhar as suas métricas de atividade pessoal. O conjunto de dados fornece detalhes granulares ao nível do minuto sobre movimento físico, frequência cardíaca e padrões de sono, juntamente com resumos diários de passos e atividade geral. Estas métricas oferecem informações valiosas sobre o comportamento do utilizador e as tendências de exercício.
 
 **Fonte de dados:** [Bella-Beat](https://www.kaggle.com/arashnic/fitbit)<br>
-[Note-se que os dados foram disponibilizados pela Motivate International Inc. ao abrigo desta [<ins>licença</ins>] (https://creativecommons.org/publicdomain/zero/1.0/).
+Nota-se que os dados foram disponibilizados pela Motivate International Inc. ao abrigo desta [<ins>license</ins>](https://creativecommons.org/publicdomain/zero/1.0/).
 
 **Ferramentas:** <br>
 - Limpeza e tratamento de dados - SQL em PostgreSQL
@@ -85,7 +85,7 @@ Como é que estas tendências podem ajudar a influenciar a estratégia de market
 
 Para simplificar a análise e manter a consistência, as tabelas de dados - que registam várias métricas de fitness, como passos, calorias, distância, sono e atividade - serão categorizadas com base nos seus intervalos de tempo (diários ou horários). Uma vez que todas as tabelas partilham a coluna "Id" como um identificador comum, este agrupamento permite um reconhecimento de padrões e conclusões mais fáceis. Ao organizar os dados desta forma, a análise torna-se mais estruturada e fácil de gerir.
 
-![Gráfico circular Tempo despendido num dia](https://github.com/Juliana-89/Bellabeat-Case-Study-SQL-and-Power-BI/blob/main/pie%20chart.png)
+![Gráfico circular Tempo despendido num dia](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/Tempo%20Gasto%20em%20Dia%20-%20Pie%20Chart.png)
 
 Principais informações:
 
@@ -93,7 +93,7 @@ Principais informações:
 * A atividade ligeira é modesta (22,29%)
 * Tempo de atividade muito baixo (2,58% muito ativo, 1,84% razoavelmente ativo)
 
-![Distância total e calorias médias queimadas por dia da semana](https://github.com/Juliana-89/Bellabeat-Case-Study-SQL-and-Power-BI/blob/main/Total%20Distance.png)
+![Distância total e calorias médias queimadas por dia da semana](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/Total%20distancia%20e%20calorias%20gastas%20por%20semana%20-%20Column%20Chart.png)
 
 Principais informações:
 
@@ -102,7 +102,7 @@ Principais informações:
 * A terça-feira representou 17,18% do total de distâncias.
 * O total de calorias e a distância total divergiram mais quando o dia_da_semana foi terça-feira, quando o total de calorias foi 714455 superior ao total de distância.
 
-![Distância média e calorias médias queimadas por dia da semana](https://github.com/Juliana-89/Bellabeat-Case-Study-SQL-and-Power-BI/blob/main/average%20distance.png)
+![Distância média e calorias médias queimadas por dia da semana](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/Media%20da%20distancia%20e%20de%20calorias%20gastas%20por%20semana.png)
 
 principais percepções:
 
@@ -111,8 +111,8 @@ principais percepções:
 * O sábado representou 15,26% da distância média.
 * As Calorias Médias Queimadas e a Distância Média divergiram mais quando o Dia da Semana foi Terça-feira, quando as Calorias Médias Queimadas foram 2.350,18 mais altas do que a Distância Média.
 
-![Tabela](https://github.com/Juliana-89/Bellabeat-Case-Study-SQL-and-Power-BI/blob/main/Screenshot%202025-04-07%20at%2009.56.48.png)
-![Scarter plot 3 together](https://github.com/Juliana-89/Bellabeat-Case-Study-SQL-and-Power-BI/blob/main/3%20scarter%20plot.png)
+![Tabela](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/Tabela.png)
+![Scarter plot 3 together](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/3%20Scatter%20plot%20intensidade%20de%20atividades%20vc%20calorias%20gastas.png)
 
 Principais informações:
 
@@ -122,22 +122,22 @@ Principais informações:
 
 À medida que a intensidade e a duração da atividade aumentam, os valores do R-quadrado aumentam, mostrando uma tendência clara: exercícios mais vigorosos e prolongados levam a um maior gasto de calorias. Isto sugere que a concentração em exercícios de alta intensidade é muito mais eficaz para queimar calorias do que uma atividade baixa ou moderada.
 
-![gráfico de colunas calorias queimadas vc hora do dia](https://github.com/Juliana-89/Bellabeat-Case-Study-SQL-and-Power-BI/blob/main/column%20chart.png)
+![gráfico de colunas calorias queimadas vc hora do dia](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/Total%20Calorias%20Gastas%20por%20Hora.png)
 
 Principais informações:
 
 * Os dados sugerem uma forte ligação entre a intensidade da atividade e as calorias queimadas, sendo provável que os movimentos de maior intensidade contribuam significativamente para o gasto de energia.
 * Além disso, o gráfico indica que os períodos de pico de atividade ocorrem entre as 7:00 e as 20:00, o que corresponde às horas típicas de vigília em que os utilizadores estão mais envolvidos em actividades físicas. 
 
-![gráficos de tabelas](https://github.com/Juliana-89/Bellabeat-Case-Study-SQL-and-Power-BI/blob/main/table.png)
-![gráfico mais assustador](https://github.com/Juliana-89/Bellabeat-Case-Study-SQL-and-Power-BI/blob/main/table%20and%20scarter%20chart.png)
+![gráficos de tabelas](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/Tabela%20Comparacoes%20de%20tempo%20de%20sono.png)
+![gráfico mais assustador](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/Total%20Sono%20vs%20calorias%20gastas%20e%20tabela.png)
 
 Principais conclusões:
 
 * A análise revela uma forte correlação positiva (R² = 0,8727) entre a duração do sono e as calorias queimadas, indicando que um sono mais longo e de qualidade está associado a um maior gasto calórico.
 * No entanto, a relação não é linear indefinidamente - exceder a duração ideal do sono não aumenta a queima de calorias e pode, pelo contrário, reduzi-la. Isto sugere que, embora o sono adequado apoie o metabolismo, o sono excessivo pode ter um retorno decrescente ou mesmo efeitos negativos no gasto de energia.
 
-![tabela e gráfico de escarificação](https://github.com/Juliana-89/Bellabeat-Case-Study-SQL-and-Power-BI/blob/main/table%20and%20scarter%20plot.png)
+![tabela e gráfico de escarificação](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/Tabela%20vs%20mets%20vc%20calorias%20gastas.png)
 
 Principais informações:
 
