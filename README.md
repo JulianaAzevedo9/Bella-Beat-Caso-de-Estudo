@@ -2,15 +2,15 @@
 
 ## 📝 Introdução 
 
-O **Estudo de caso da BellaBeat** é um projeto de conclusão do **Google Data Analytics Professional Certificate** no Coursera. Neste estudo de caso, realizarei várias tarefas do mundo real de um analista de dados júnior em uma empresa fictícia chamada Bella Beat. Perguntar, preparar, processar, analisar, partilhar e agir são as etapas do processo de análise de dados que utilizarei para resolver os principais problemas empresariais.
+O **Estudo de caso da Bella Beat** é um projeto de conclusão do **Google Data Analytics Professional Certificate** no Coursera. Neste estudo de caso, realizarei várias tarefas do mundo real de um analista de dados júnior em uma empresa fictícia chamada Bella Beat. Perguntar, preparar, processar, analisar, partilhar e agir são as etapas do processo de análise de dados que utilizarei para resolver os principais problemas empresariais.
 
-## 💬 Background
+## 💬 Histórico
 
-Urška Sršen e Sando Mur co-fundaram a Bellabeat, uma empresa tecnológica especializada em produtos de saúde inteligentes concebidos para as mulheres. Ao recolher informações sobre a atividade, o sono, o stress e a saúde reprodutiva, a Bellabeat ajuda as mulheres a compreender melhor o seu bem-estar e os seus hábitos diários. Fundada em 2013, a empresa expandiu-se rapidamente, tornando-se líder no bem-estar das mulheres através de tecnologia inovadora.
+Urška Sršen e Sando Mur co-fundaram a Bellabeat, uma empresa tecnológica especializada em produtos de saúde inteligentes projetados para as mulheres. Ao recolher informações sobre a atividade, o sono, o stress e a saúde reprodutiva, a Bellabeat ajuda as mulheres a compreender melhor o seu bem-estar e os seus hábitos diários. Fundada em 2013, a empresa expandiu-se rapidamente, tornando-se líder no bem-estar das mulheres através de tecnologia inovadora.
 
 ## Cenário
 
-Como analista de dados júnior na equipa de marketing da Bellabeat, a sua tarefa é analisar dados de fitness de dispositivos inteligentes para descobrir tendências de utilização por parte dos consumidores. A Bellabeat, uma empresa tecnológica em crescimento especializada em produtos de bem-estar para mulheres, tem como objetivo expandir a sua presença global. Urška Sršen, co-fundadora e diretora criativa, acredita que o estudo destes dados pode revelar oportunidades de crescimento. A sua análise centrar-se-á num dos produtos da Bellabeat e as informações que gerar irão moldar a estratégia de marketing da empresa. Apresentará as suas conclusões e recomendações estratégicas à equipa executiva para ajudar a impulsionar o sucesso futuro da Bellabeat.
+Como analista de dados júnior na equipa de marketing da **Bella Beat**, a sua tarefa é analisar dados de fitness de dispositivos inteligentes para descobrir tendências de utilização por parte dos consumidoras. A Bella Beat, uma empresa tecnológica em crescimento especializada em produtos de bem-estar para mulheres, tem como objetivo expandir a sua presença global. Urška Sršen, co-fundadora e diretora criativa, acredita que o estudo destes dados pode revelar oportunidades de crescimento. Sua análise focará em um dos produtos da Bellabeat, e os insights gerados orientarão a estratégia de marketing da empresa. Você apresentará suas descobertas e recomendações estratégicas à diretoria executiva, contribuindo para o sucesso futuro da Bellabeat.
 
 Este projeto segue o processo de análise de dados em seis etapas descrito no certificado do Google Data Analytics:
 
@@ -29,19 +29,19 @@ Este projeto segue o processo de análise de dados em seis etapas descrito no ce
 ## ⚙ Abordagem/etapas
 ### 1. Perguntar
 
-Urška Sršen encarregou-o de analisar os dados sobre a forma como os consumidores utilizam os dispositivos inteligentes que não são da Bellabeat para descobrir tendências de comportamento. Com base nestas informações, escolherá um produto Bellabeat para se concentrar e demonstrará como estas conclusões podem informar a sua estratégia de marketing.
+Urška Sršen designou você para analisar dados de uso de dispositivos inteligentes da Bellabeat, identificando padrões comportamentais dos consumidoras. Com base nessas descobertas, você selecionará um produto Bellabeat como foco e demonstrará como esses insights podem orientar sua estratégia de marketing.
 
 A análise deve abordar as três questões-chave seguintes:
 
 
    1. Quais são as tendências na utilização de dispositivos inteligentes?
-   2. Como é que estas tendências se podem aplicar aos clientes da Bellabeat?
+   2. Como essas tendências podem se relacionar com os usuários da Bellabeat??
    3. Como é que estas tendências podem ajudar a influenciar a estratégia de marketing da Bellabeat?
 
 ### 2. Preparar
 
 Usarei os dados do FitBit Fitness Tracker, um valioso conjunto de dados históricos fornecido pela Motivate International Inc. sob licença, para analisar as tendências de uso do BellaBeat a partir de 2016.
-Este conjunto de dados do Kaggle inclui dados de rastreio de fitness de 30 utilizadores do Fitbit que concordaram em partilhar as suas métricas de atividade pessoal. O conjunto de dados fornece detalhes granulares ao nível do minuto sobre movimento físico, frequência cardíaca e padrões de sono, juntamente com resumos diários de passos e atividade geral. Estas métricas oferecem informações valiosas sobre o comportamento do utilizador e as tendências de exercício.
+Este conjunto de dados do Kaggle inclui dados de rastreio de fitness de 33 utilizadoras do Fitbit que concordaram em partilhar as suas métricas de atividade pessoal. O conjunto de dados fornece detalhes granulares ao nível do minuto sobre movimento físico, frequência cardíaca e padrões de sono, juntamente com resumos diários de passos e atividades em geral. Estas métricas oferecem informações valiosas sobre o comportamento das consumidoras e as tendências de exercício.
 
 **Fonte de dados:** [Bella-Beat](https://www.kaggle.com/arashnic/fitbit)<br>
 Nota-se que os dados foram disponibilizados pela Motivate International Inc. ao abrigo desta [<ins>license</ins>](https://creativecommons.org/publicdomain/zero/1.0/).
@@ -73,9 +73,9 @@ Uma vez que as tabelas têm Id, date_new e time_new em comum, foi utilizada a In
 
 Antes de limpar os dados, um dos primeiros passos que dei foi familiarizar-me com a estrutura da tabela e os seus dados para identificar potenciais inconsistências.
 
-Durante a avaliação inicial dos dados, verificou-se que apenas a tabela sleep_data continha registos de 24 utilizadores distintos, enquanto todas as outras tabelas incluíam consistentemente dados de 33 utilizadores cada. Esta discrepância na representação dos participantes em todos os conjuntos de dados pode introduzir preconceitos ou limitações ao analisar as relações entre as métricas do sono e outras variáveis de atividade (por exemplo, passos, calorias). 
+Durante a avaliação inicial dos dados, verificou-se que apenas a tabela sleep_data continha registos de 24 utilizadoras distintas, enquanto todas as outras tabelas incluíam consistentemente dados de 33 consumidoras. Esta discrepância na representação dos participantes em todos os conjuntos de dados pode introduzir preconceitos ou limitações ao analisar as relações entre as métricas do sono e outras variáveis de atividade (por exemplo, passos, calorias). 
 
-Uma análise dos seis quadros confirmou a ausência de valores nulos e de registos duplicados, o que indica um elevado grau de exaustividade e limpeza dos dados. 
+Uma revisão completa das seis tabelas confirmou a ausência de valores nulos e registros duplicados, indicando alta integridade e qualidade dos dados.
 
 ### 4. Analisar
 
@@ -83,38 +83,38 @@ A questão da análise é:
 
 Como é que estas tendências podem ajudar a influenciar a estratégia de marketing da Bellabeat?
 
-Para simplificar a análise e manter a consistência, as tabelas de dados - que registam várias métricas de fitness, como passos, calorias, distância, sono e atividade - serão categorizadas com base nos seus intervalos de tempo (diários ou horários). Uma vez que todas as tabelas partilham a coluna "Id" como um identificador comum, este agrupamento permite um reconhecimento de padrões e conclusões mais fáceis. Ao organizar os dados desta forma, a análise torna-se mais estruturada e fácil de gerir.
+Para otimizar a análise e garantir consistência, as tabelas de dados - que monitoram métricas de fitness como passos, calorias, distância, sono e atividade - serão categorizadas por intervalos de tempo (diários ou horários). Como todas as tabelas compartilham a coluna 'Id' como identificador comum, esse agrupamento facilita a identificação de padrões e a extração de conclusões. Essa organização torna a análise mais estruturada e gerenciáve.
 
 ![Gráfico circular Tempo despendido num dia](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/Tempo%20Gasto%20em%20Dia%20-%20Pie%20Chart.png)
 
 Principais informações:
 
 * Predomina o tempo sedentário (73,29%)
-* A atividade ligeira é modesta (22,29%)
-* Tempo de atividade muito baixo (2,58% muito ativo, 1,84% razoavelmente ativo)
+* A atividade leve é modesta (22,29%)
+* Atividade Intensa é Muito Baixa (2,58% muito ativo, 1,84% razoavelmente ativo)
 
 ![Distância total e calorias médias queimadas por dia da semana](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/Total%20distancia%20e%20calorias%20gastas%20por%20semana%20-%20Column%20Chart.png)
 
-Principais informações:
+Principais pontos:
 
-* A terça-feira, às 1773 horas, registou a distância total mais elevada, 45,74% superior à de domingo, que registou a distância total mais baixa, 1 216,58.
-* A distância total e o total de calorias totais estão positivamente correlacionados entre si.
-* A terça-feira representou 17,18% do total de distâncias.
-* O total de calorias e a distância total divergiram mais quando o dia_da_semana foi terça-feira, quando o total de calorias foi 714455 superior ao total de distância.
+* Pico de Distância: Terça-feira, às 17:73, registrou a maior distância total (45,74% superior ao domingo, que teve o menor registro: 1.216,58).
+* Correlação Direta: Distância total e calorias totais apresentam relação positiva (quanto maior a distância, maior o gasto calórico).
+* Representatividade: Terça-feira concentrou 17,18% do total de distâncias semanais.
+* Divergência Notável: Na terça-feira, o total de calorias (714.455) superou significativamente a distância total, indicando maior intensidade de atividade nesse dia.
 
 ![Distância média e calorias médias queimadas por dia da semana](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/Media%20da%20distancia%20e%20de%20calorias%20gastas%20por%20semana.png)
 
-principais percepções:
+principais pontos:
 
-* Com 5,85, o sábado registou a distância média mais elevada e foi 16,46% superior ao domingo, que registou a distância média mais baixa, com 5,03.
-* A distância média e o total de calorias médias queimadas estão positivamente correlacionados entre si.
-* O sábado representou 15,26% da distância média.
-* As Calorias Médias Queimadas e a Distância Média divergiram mais quando o Dia da Semana foi Terça-feira, quando as Calorias Médias Queimadas foram 2.350,18 mais altas do que a Distância Média.
+* Pico de Desempenho: O sábado registrou a maior distância média (5,85), superando o domingo em 16,46% (este com a menor média: 5,03).
+* Relação Consistente: Distância média e calorias médias queimadas apresentam correlação positiva – aumentam proporcionalmente.
+* Destaque Semanal: Os percursos de sábado representaram 15,26% da distância média total semanal.
+* Anomalia na Terça-feira: Neste dia, observou-se a maior divergência entre métricas Calorias queimadas (2.350,18 a mais que a distância média) e sugere maior intensidade de atividades comparado a outros dias.
 
 ![Tabela](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/Tabela.png)
 ![Scarter plot 3 together](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/3%20Scatter%20plot%20intensidade%20de%20atividades%20vc%20calorias%20gastas.png)
 
-Principais informações:
+Principais pontos:
 
 * Minutos pouco activos (R² = 0,0118): Correlação mínima com o gasto calórico.
 * Minutos razoavelmente activos (R² = 0,0391): Correlação um pouco mais forte, mas ainda assim fraca.
