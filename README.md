@@ -116,52 +116,56 @@ principais pontos:
 
 Principais pontos:
 
-* Minutos pouco activos (R² = 0,0118): Correlação mínima com o gasto calórico.
-* Minutos razoavelmente activos (R² = 0,0391): Correlação um pouco mais forte, mas ainda assim fraca.
-* Minutos muito activos (R² = 0,3865): Demonstra uma correlação muito mais forte, indicando que as actividades de maior intensidade têm um impacto significativo na queima de calorias.
+* Minutos Pouco Ativos (R² = 0,0118): Correlação mínima com gasto calórico.
+* Minutos Moderadamente Ativos (R² = 0,0391): Relação ligeiramente mais forte, mas ainda fraca.
+* Minutos Muito Ativos (R² = 0,3865): Demonstra uma correlação significativamente mais forte, indicando que atividades de alta intensidade têm um impacto relevante na queima de calorias.
 
-À medida que a intensidade e a duração da atividade aumentam, os valores do R-quadrado aumentam, mostrando uma tendência clara: exercícios mais vigorosos e prolongados levam a um maior gasto de calorias. Isto sugere que a concentração em exercícios de alta intensidade é muito mais eficaz para queimar calorias do que uma atividade baixa ou moderada.
+À medida que a intensidade e a duração da atividade aumentam, os valores de R² sobem, revelando um padrão claro: exercícios mais vigorosos e prolongados resultam em um maior gasto calórico. Isso sugere que treinos de alta intensidade são muito mais eficazes para queimar calorias em comparação com atividades leves ou moderadas.
 
 ![gráfico de colunas calorias queimadas vc hora do dia](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/Total%20Calorias%20Gastas%20por%20Hora.png)
 
-Principais informações:
+Principais pontos:
 
 * Os dados sugerem uma forte ligação entre a intensidade da atividade e as calorias queimadas, sendo provável que os movimentos de maior intensidade contribuam significativamente para o gasto de energia.
-* Além disso, o gráfico indica que os períodos de pico de atividade ocorrem entre as 7:00 e as 20:00, o que corresponde às horas típicas de vigília em que os utilizadores estão mais envolvidos em actividades físicas. 
-
+* Além disso, o gráfico indica que os picos de atividade ocorrem entre 7h e 20h, alinhando-se com o período diurno em que os usuários estão mais ativos fisicamente.
+  
 ![gráficos de tabelas](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/Tabela%20Comparacoes%20de%20tempo%20de%20sono.png)
 ![gráfico mais assustador](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/Total%20Sono%20vs%20calorias%20gastas%20e%20tabela.png)
 
-Principais conclusões:
+Principais pontos:
 
-* A análise revela uma forte correlação positiva (R² = 0,8727) entre a duração do sono e as calorias queimadas, indicando que um sono mais longo e de qualidade está associado a um maior gasto calórico.
-* No entanto, a relação não é linear indefinidamente - exceder a duração ideal do sono não aumenta a queima de calorias e pode, pelo contrário, reduzi-la. Isto sugere que, embora o sono adequado apoie o metabolismo, o sono excessivo pode ter um retorno decrescente ou mesmo efeitos negativos no gasto de energia.
+* Forte Correlação Positiva (R² = 0,8727): Há uma relação significativa entre duração do sono e calorias queimadas, indicando que sono mais longo e de qualidade está associado a um maior gasto calórico.
+* Não Linearidade: A relação não é linear indefinidamente – ultrapassar a duração ideal de sono não aumenta a queima de calorias e pode até reduzi-la. Isso sugere que, embora o sono adequado favoreça o metabolismo, o excesso pode ter retornos decrescentes ou até impactos negativos no gasto energético.
 
 ![tabela e gráfico de escarificação](https://github.com/JulianaAzevedo9/BellaBeat-Estudo-De-Caso/blob/main/Tabela%20vs%20mets%20vc%20calorias%20gastas.png)
 
-Principais informações:
+Principais pontos:
 
 * O valor R-quadrado é de 0,5504 
 * Indicando uma forte correlação positiva entre os MET e as calorias médias queimadas.
 
-O número de calorias queimadas por cada utilizador é significativamente influenciado pelos seus valores MET diários. Esta relação é evidenciada por um valor r-quadrado elevado, indicando uma forte correlação entre a linha de tendência e os pontos do conjunto de dados.
+s dados demonstram que os valores MET diários exercem influência significativa no número de calorias queimadas pelos usuários, conforme comprovado por um alto coeficiente de determinação (R²), que indica forte correlação entre a linha de tendência e os pontos do conjunto de dados. Essa relação destaca o papel crítico da intensidade das atividades (medida em MET) no gasto energético individual.
 
 ### 5. Partilhar
 
-Após o processamento dos conjuntos de dados fornecidos através da recolha, transformação, limpeza, organização e análise, dispomos de provas factuais suficientes para responder às questões iniciais relacionadas com a atividade.
+Após processar os conjuntos de dados por meio de coleta, transformação, limpeza, organização e análise, obtivemos evidências factuais suficientes para responder às questões de negócios inicialmente propostas.
 
-Os nossos resultados indicam que tanto a duração como a intensidade das actividades físicas influenciam significativamente o gasto de calorias. Os METs (Metabolic Equivalent of Task) oferecem informações valiosas sobre a intensidade da atividade e as calorias queimadas por minuto. Embora a maioria dos consumidores tenha um sono adequado , uma pequena parte dorme demais ou de menos. Além disso, os utilizadores tendem a praticar actividades de baixa a alta intensidade, principalmente entre as 7:00 e as 20:00 horas do dia.
+Os resultados indicam que tanto a duração como a intensidade das actividades físicas influenciam significativamente o gasto de calorias. Os METs (Metabolic Equivalent of Task) oferecem informações valiosas sobre a intensidade da atividade e as calorias queimadas por minuto. Embora a maioria das consumidoras tenha um sono adequado , uma pequena parte dorme demais ou de menos. Além disso, as utilizadoras tendem a praticar actividades de baixa a alta intensidade, principalmente entre as 7:00 e as 20:00 horas do dia.
 
 ### 6. Atuar
 
 Recomendações fundamentais para os estrategas de marketing:
 
-1. Promova o acompanhamento MET como uma caraterística essencial - Utilize o acompanhamento MET (Metabolic Equivalent of Task) nas campanhas de marketing para informar os utilizadores sobre a forma como mede a intensidade da atividade e fornece informações sobre a queima de calorias em tempo real. Isto pode ajudar os utilizadores a optimizarem os seus treinos e a manterem-se motivados.
-2. Incentivar a atividade durante as horas de ponta - Uma vez que os dados mostram que os utilizadores são mais activos entre as 7:00 e as 20:00, os dispositivos inteligentes podem enviar lembretes atempados durante estas janelas para incentivar o movimento, ajudando a combater o comportamento sedentário e promovendo um estilo de vida mais ativo.
-3. Melhorar o controlo do sono e as notificações - Implementar notificações inteligentes para incentivar um sono consistente e de qualidade. Introduzir métricas avançadas do sono, como o rastreio do REM (Movimento Rápido dos Olhos), para fornecer informações mais aprofundadas e melhorar os hábitos de sono dos utilizadores.
-4. Introduzir desafios de calorias gamificados - Aumente o envolvimento estabelecendo desafios diários/semanais de queima de calorias com um sistema de recompensas. Os melhores desempenhos podem ganhar pontos que podem ser trocados por descontos em compras futuras, promovendo a lealdade e a motivação.
+1.Promover o Acompanhamento MET como Destaque
+Utilize o rastreamento MET (Equivalente Metabólico da Tarefa) em campanhas de marketing para educar os usuários sobre como essa métrica mede a intensidade das atividades e fornece insights em tempo real sobre a queima calórica. Isso ajudará os usuários a otimizar seus treinos e manter a motivação.
+2. Incentivar Atividade nos Horários de Pico
+Como os dados mostram maior atividade entre 7h e 20h, os dispositivos podem enviar lembretes inteligentes nesses períodos para estimular movimento, combatendo o sedentarismo e promovendo um estilo de vida mais ativo.
+3. Aprimorar o Monitoramento do Sono e Notificações
+Implemente alertas inteligentes para incentivar um sono consistente e de qualidade. Adicione métricas avançadas, como monitoramento REM (Movimento Rápido dos Olhos), para oferecer análises mais profundas e melhorar os hábitos de sono dos usuários.
+4. Desafios de Calorias com Elementos de Gamificação
+Aumente o engajamento com desafios diários/semanais de queima calórica e um sistema de recompensas. Os melhores desempenhos podem ganhar pontos resgatáveis (ex.: descontos em compras futuras), promovendo fidelização e motivação contínua.
 
-Ao incorporar estas estratégias, a empresa pode promover a participação dos utilizadores, melhorar os resultados em termos de saúde e desbloquear novas oportunidades de crescimento.
+Ao incorporar estas estratégias, a empresa pode promover a participação das consumidoras, melhorar os resultados em termos de saúde e desbloquear novas oportunidades de crescimento.
 
 ## 🔮 Conclusão
 Essa análise oferece informações importantes sobre os diferentes comportamentos e preferências dos usuários do BellaBeat. Ao adaptar as estratégias a essas diferenças, a empresa pode incentivar de forma mais eficaz os utilizadores casuais a tornarem-se membros potenciais.
