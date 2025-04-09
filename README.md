@@ -156,12 +156,15 @@ Os resultados indicam que tanto a duração como a intensidade das actividades f
 
 Recomendações fundamentais para os estrategas de marketing:
 
-1.Promover o Acompanhamento MET como Destaque
+1. Promover o Acompanhamento MET como Destaque
 Utilize o rastreamento MET (Equivalente Metabólico da Tarefa) em campanhas de marketing para educar os usuários sobre como essa métrica mede a intensidade das atividades e fornece insights em tempo real sobre a queima calórica. Isso ajudará os usuários a otimizar seus treinos e manter a motivação.
+
 2. Incentivar Atividade nos Horários de Pico
 Como os dados mostram maior atividade entre 7h e 20h, os dispositivos podem enviar lembretes inteligentes nesses períodos para estimular movimento, combatendo o sedentarismo e promovendo um estilo de vida mais ativo.
+
 3. Aprimorar o Monitoramento do Sono e Notificações
 Implemente alertas inteligentes para incentivar um sono consistente e de qualidade. Adicione métricas avançadas, como monitoramento REM (Movimento Rápido dos Olhos), para oferecer análises mais profundas e melhorar os hábitos de sono dos usuários.
+
 4. Desafios de Calorias com Elementos de Gamificação
 Aumente o engajamento com desafios diários/semanais de queima calórica e um sistema de recompensas. Os melhores desempenhos podem ganhar pontos resgatáveis (ex.: descontos em compras futuras), promovendo fidelização e motivação contínua.
 
